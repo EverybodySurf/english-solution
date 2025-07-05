@@ -21,7 +21,7 @@ export default function HeroSection() {
                     <div className="pb-24 pt-12 md:pb-32 lg:pb-6 lg:pt-22">
                         <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
                             <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
-                                <h1 className="mt-8 max-w-2xl text-balance text-4xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">{t('English Immersion for Kids')}</h1>
+                                <h1 className="text-amber-400 mt-8 max-w-2xl text-balance text-4xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">{t('English Immersion for Kids')}</h1>
                                 <p className="mt-8 max-w-2xl text-pretty text-lg">{t('Learn English and have fun doing it with engaging lessons tailored to your needs.')}</p>
 
                                 <div className="mt-12 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
@@ -60,20 +60,22 @@ export default function HeroSection() {
                             />
                         </div>
                         <div className="flex sm:pt-10 md:pt-16 lg:pt-20 items-center justify-center w-full">
-                            <svg 
-                                xmlns="http://www.w3.org/2000/svg" 
-                                width="40" 
-                                height="40" 
-                                viewBox="0 0 24 24" 
-                                fill="none" 
-                                stroke="currentColor" 
-                                strokeWidth="2" 
-                                strokeLinecap="round" 
-                                strokeLinejoin="round" 
-                                className="lucide lucide-chevrons-down-icon lucide-chevrons-down">
-                                    <path d="m7 6 5 5 5-5"/>
-                                    <path d="m7 13 5 5 5-5"/>
-                            </svg>
+                            <Link href="#features-1">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" 
+                                    width="40" 
+                                    height="40" 
+                                    viewBox="0 0 24 24" 
+                                    fill="none" 
+                                    stroke="currentColor" 
+                                    strokeWidth="2" 
+                                    strokeLinecap="round" 
+                                    strokeLinejoin="round" 
+                                    className="lucide lucide-chevrons-down-icon lucide-chevrons-down animate-bounce">
+                                        <path d="m7 6 5 5 5-5"/>
+                                        <path d="m7 13 5 5 5-5"/>
+                                </svg>
+                            </Link>
                         </div>
                         
                     </div>

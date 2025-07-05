@@ -7,7 +7,7 @@ import { useTranslation } from 'react-i18next'
 export default function Features() {
     const { t } = useTranslation()
     return (
-        <section className="bg-zinc-50 py-16 md:py-16 dark:bg-transparent" id="features-1">
+        <section className="bg-zinc-50 py-16 md:py-16 dark:bg-transparent scroll-mt-15" id="features-1">
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
                     <h2 className="text-balance text-4xl font-semibold lg:text-5xl">{t('Tailored to your needs')}</h2>
