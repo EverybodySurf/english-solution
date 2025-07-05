@@ -18,10 +18,10 @@ export default function HeroSection() {
             <HeroHeader />
             <main className="overflow-x-hidden">
                 <section>
-                    <div className="pb-24 pt-12 md:pb-32 lg:pb-56 lg:pt-44">
+                    <div className="pb-24 pt-12 md:pb-32 lg:pb-6 lg:pt-22">
                         <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
                             <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
-                                <h1 className="mt-8 max-w-2xl text-balance text-5xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">{t('English Immersion for Kids')}</h1>
+                                <h1 className="mt-8 max-w-2xl text-balance text-4xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">{t('English Immersion for Kids')}</h1>
                                 <p className="mt-8 max-w-2xl text-pretty text-lg">{t('Learn English and have fun doing it with engaging lessons tailored to your needs.')}</p>
 
                                 <div className="mt-12 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
@@ -51,7 +51,7 @@ export default function HeroSection() {
                                 </div>
                             </div>
                             <Image
-                                className="-z-10 order-first ml-auto h-56 w-full object-cover sm:h-96 lg:absolute lg:inset-0 lg:-right-40 lg:-top-50 lg:order-last lg:h-max lg:w-2/3 lg:object-contain dark:mix-blend-lighten dark:invert-0"
+                                className="-z-10 order-first ml-auto h-56 w-full object-cover sm:h-96 lg:absolute lg:inset-0 lg:-right-40 lg:-top-20 lg:order-last lg:h-max lg:w-2/3 lg:object-contain dark:mix-blend-lighten dark:invert-0"
                                 src={kidsLaughing}
                                 alt="Kids Laughing"
                                 height="4000"
@@ -59,10 +59,27 @@ export default function HeroSection() {
                                 priority
                             />
                         </div>
+                        <div className="flex sm:pt-10 md:pt-16 lg:pt-20 items-center justify-center w-full">
+                            <svg 
+                                xmlns="http://www.w3.org/2000/svg" 
+                                width="40" 
+                                height="40" 
+                                viewBox="0 0 24 24" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                strokeWidth="2" 
+                                strokeLinecap="round" 
+                                strokeLinejoin="round" 
+                                className="lucide lucide-chevrons-down-icon lucide-chevrons-down">
+                                    <path d="m7 6 5 5 5-5"/>
+                                    <path d="m7 13 5 5 5-5"/>
+                            </svg>
+                        </div>
+                        
                     </div>
                 </section>
-                <section className="bg-background pb-16 md:pb-32">
-                   {/* <div className="group relative m-auto max-w-6xl px-6">
+                {/*<section className="bg-background pb-16 md:pb-32">
+                    <div className="group relative m-auto max-w-6xl px-6">
                         <div className="flex flex-col items-center md:flex-row">
                             <div className="md:max-w-44 md:border-r md:pr-6">
                                 <p className="text-end text-sm">Working with</p>
@@ -162,8 +179,8 @@ export default function HeroSection() {
                                 />
                             </div> 
                         </div>
-                    </div>*/}
-                </section>
+                    </div>
+                </section>*/}
             </main>
         </>
     )
