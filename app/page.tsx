@@ -4,6 +4,7 @@ import Features from "@/components/features-1";
 import FooterSection from "@/components/footer";
 import HeroSection from "@/components/hero-section";
 import Chatbot from "@/components/Chatbot"
+import TeamSection from "@/components/team";
 
 
 
@@ -12,7 +13,7 @@ export default function Home() {
     <>
       <HeroSection />
       <Features />
-      <ContentSection />
+      <TeamSection />
       <CallToAction />
       <FooterSection />
     </>

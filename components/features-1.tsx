@@ -21,7 +21,7 @@ export default function Features() {
                                 <Baby className="size-6 text-amber-400" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-3 font-medium">{t('Wednesdays')}</h3>
+                            <h3 className="mt-3 font-bold">{t('Wednesdays')}</h3>
                         </CardHeader>
 
                         <CardContent>
@@ -35,7 +35,7 @@ export default function Features() {
                                 <NotebookPen className="size-6 text-yellow-400" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-3 font-medium">{t('Saturdays')}</h3>
+                            <h3 className="mt-3 font-bold">{t('Saturdays')}</h3>
                         </CardHeader>
 
                         <CardContent>
@@ -49,7 +49,7 @@ export default function Features() {
                                 <PartyPopper className="size-6 text-yellow-400" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-3 font-medium">{t('Holiday Workshops')}</h3>
+                            <h3 className="mt-3 font-bold">{t('Holiday Workshops')}</h3>
                         </CardHeader>
 
                         <CardContent>
@@ -63,7 +63,7 @@ export default function Features() {
                                 <Star className="size-6 text-yellow-400" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-3 font-medium">{t('Various Services')}</h3>
+                            <h3 className="mt-3 font-bold">{t('Various Services')}</h3>
                         </CardHeader>
 
                         <CardContent>
@@ -72,7 +72,7 @@ export default function Features() {
                     </Card>
                 </div>
                 <div className="flex sm:pt-10 md:pt-16 lg:pt-10 items-center justify-center w-full">
-                            <Link href="#content-3">
+                            <Link href="#team">
                                 <svg 
                                     xmlns="http://www.w3.org/2000/svg" 
                                     width="40" 

@@ -33,6 +33,7 @@ export const HeroHeader = () => {
                                 aria-label="home"
                                 className="flex items-center space-x-2">
                                 <Logo />
+                                <h3 className="font-bold text-foreground">{t('The English Solution')}</h3>
                             </Link>
 
                             <button

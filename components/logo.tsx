@@ -8,7 +8,7 @@ export const Logo = ({ className }: { className?: string }) => {
             height="24" 
             viewBox="0 0 24 24" 
             fill="none" 
-            stroke="currentColor" 
+            stroke="oklch(0.84 0.16 84)" 
             strokeWidth="2" 
             strokeLinecap="round" 
             strokeLinejoin="round" 
