@@ -7,24 +7,24 @@ import { useTranslation } from 'react-i18next'
 export default function Features() {
     const { t } = useTranslation()
     return (
-        <section className="bg-zinc-50 py-16 md:py-16 dark:bg-transparent scroll-mt-15" id="features-1">
+        <section className="bg-zinc-50 py-16 md:py-16 dark:bg-transparent scroll-mt-10" id="features-1">
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
-                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl">{t('Tailored to your needs')}</h2>
+                    <h2 className="text-teal-400 text-balance text-4xl font-semibold lg:text-5xl">{t('Our offers')}</h2>
                     <p className="mt-4">{t("Whether it's adults or children, for work or personal practice, we'll help you attain your goals")}</p>
                 </div>
-                <div className="@min-4xl:max-w-full @min-4xl:grid-cols-3 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
+                <div className="@min-4xl:max-w-full @min-4xl:grid-cols-4 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
                     <Card className="group shadow-zinc-950/5">
                         <CardHeader className="pb-3">
                             <CardDecorator>
-                                <Zap className="size-6 text-yellow-400" aria-hidden />
+                                <Zap className="size-6 text-amber-400" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">{t('Learn the Basics')}</h3>
+                            <h3 className="mt-6 font-medium">{t('Wednesdays')}</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="text-sm">{t('Extensive customization options, allowing you to tailor every aspect to meet your specific needs.')}</p>
+                            <p className="mt-3 text-sm">{t('Group workshops, for ages 4-10, 8am-12pm, 110€/m')}</p>
                         </CardContent>
                     </Card>
 
@@ -34,11 +34,11 @@ export default function Features() {
                                 <Settings2 className="size-6 text-yellow-400" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">{t('Attain Fluency')}</h3>
+                            <h3 className="mt-6 font-medium">{t('Saturdays')}</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">{t('Improve your level with engaging audio, visual, and experiential practices.')}</p>
+                            <p className="mt-3 text-sm">{t('Group workshops for ages 8-11, 9:30am-12:30pm, 65€/m | 6th/5th 10:30am-12:30pm, 85€/m')}</p>
                         </CardContent>
                     </Card>
 
@@ -48,11 +48,25 @@ export default function Features() {
                                 <Sparkles className="size-6 text-yellow-400" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">{t('recreational conversation')}</h3>
+                            <h3 className="mt-6 font-medium">{t('Holiday Workshops')}</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">{t("Let's enjoy a cup of coffee or a smoothie by the beach as we converse in English and cover current events and interests.")}</p>
+                            <p className="mt-3 text-sm">{t("All Saints' Day, Carnival, Easter 180€/w (meal included)")}</p>
+                        </CardContent>
+                    </Card>
+
+                    <Card className="group shadow-zinc-950/5">
+                        <CardHeader className="pb-3">
+                            <CardDecorator>
+                                <Sparkles className="size-6 text-yellow-400" aria-hidden />
+                            </CardDecorator>
+
+                            <h3 className="mt-6 font-medium">{t('Various Services')}</h3>
+                        </CardHeader>
+
+                        <CardContent>
+                            <p className="mt-3 text-sm">{t("Language stays, creation of texts, animation")}</p>
                         </CardContent>
                     </Card>
                 </div>

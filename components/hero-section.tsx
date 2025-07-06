@@ -21,7 +21,7 @@ export default function HeroSection() {
                     <div className="pb-24 pt-12 md:pb-32 lg:pb-6 lg:pt-22">
                         <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
                             <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
-                                <h1 className="text-amber-400 mt-8 max-w-2xl text-balance text-4xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">{t('English Immersion for Kids')}</h1>
+                                <h1 className="text-teal-400 mt-8 max-w-2xl text-balance text-4xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">{t('English Immersion for Kids')}</h1>
                                 <p className="mt-8 max-w-2xl text-pretty text-lg">{t('Learn English and have fun doing it with engaging lessons tailored to your needs.')}</p>
 
                                 <div className="mt-12 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
@@ -34,7 +34,7 @@ export default function HeroSection() {
                                             target="_blank"
                                             rel="noopener noreferrer"
                                         >
-                                            <FaWhatsapp className="text-zinc-50 dark:text-zinc-950 text-xl" />
+                                            <FaWhatsapp className="text-teal-900 dark:text-zinc-950 text-xl" />
                                             <span className="text-nowrap">{t('Contact')}</span>
                                         </Link>
                                     </Button>
