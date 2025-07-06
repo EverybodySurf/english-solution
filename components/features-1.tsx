@@ -1,75 +1,94 @@
 'use client'
 import { Card, CardContent, CardHeader } from '@/components/ui/card'
-import { Settings2, Sparkles, Zap } from 'lucide-react'
+import { Baby, NotebookPen, PartyPopper, Star } from 'lucide-react'
 import { ReactNode } from 'react'
 import { useTranslation } from 'react-i18next'
+import Link from 'next/link'
 
 export default function Features() {
     const { t } = useTranslation()
     return (
-        <section className="bg-zinc-50 py-16 md:py-16 dark:bg-transparent scroll-mt-10" id="features-1">
+        <section className="bg-zinc-50 py-16 md:py-16 dark:bg-transparent scroll-mt-8" id="features-1">
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
                     <h2 className="text-teal-400 text-balance text-4xl font-semibold lg:text-5xl">{t('Our offers')}</h2>
                     <p className="mt-4">{t("Whether it's adults or children, for work or personal practice, we'll help you attain your goals")}</p>
                 </div>
-                <div className="@min-4xl:max-w-full @min-4xl:grid-cols-4 mx-auto mt-8 grid max-w-sm gap-6 *:text-center md:mt-16">
+                <div className="@min-4xl:max-w-full @min-4xl:grid-cols-4 mx-auto mt-8 lg:mt-14 grid max-w-sm gap-6 *:text-center md:mt-16">
                     <Card className="group shadow-zinc-950/5">
                         <CardHeader className="pb-3">
                             <CardDecorator>
-                                <Zap className="size-6 text-amber-400" aria-hidden />
+                                <Baby className="size-6 text-amber-400" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">{t('Wednesdays')}</h3>
+                            <h3 className="mt-3 font-medium">{t('Wednesdays')}</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">{t('Group workshops, for ages 4-10, 8am-12pm, 110€/m')}</p>
+                            <p className="text-sm">{t('Group workshops, for ages 4-10, 8am-12pm, 110€/m')}</p>
                         </CardContent>
                     </Card>
 
                     <Card className="group shadow-zinc-950/5">
                         <CardHeader className="pb-3">
                             <CardDecorator>
-                                <Settings2 className="size-6 text-yellow-400" aria-hidden />
+                                <NotebookPen className="size-6 text-yellow-400" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">{t('Saturdays')}</h3>
+                            <h3 className="mt-3 font-medium">{t('Saturdays')}</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">{t('Group workshops for ages 8-11, 9:30am-12:30pm, 65€/m | 6th/5th 10:30am-12:30pm, 85€/m')}</p>
+                            <p className="text-sm">{t('Group workshops for ages 8-11, 9:30am-12:30pm, 65€/m | 6th/5th 10:30am-12:30pm, 85€/m')}</p>
                         </CardContent>
                     </Card>
 
                     <Card className="group shadow-zinc-950/5">
                         <CardHeader className="pb-3">
                             <CardDecorator>
-                                <Sparkles className="size-6 text-yellow-400" aria-hidden />
+                                <PartyPopper className="size-6 text-yellow-400" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">{t('Holiday Workshops')}</h3>
+                            <h3 className="mt-3 font-medium">{t('Holiday Workshops')}</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">{t("All Saints' Day, Carnival, Easter 180€/w (meal included)")}</p>
+                            <p className="text-sm">{t("All Saints' Day, Carnival, Easter 180€/w (meal included)")}</p>
                         </CardContent>
                     </Card>
 
                     <Card className="group shadow-zinc-950/5">
                         <CardHeader className="pb-3">
                             <CardDecorator>
-                                <Sparkles className="size-6 text-yellow-400" aria-hidden />
+                                <Star className="size-6 text-yellow-400" aria-hidden />
                             </CardDecorator>
 
-                            <h3 className="mt-6 font-medium">{t('Various Services')}</h3>
+                            <h3 className="mt-3 font-medium">{t('Various Services')}</h3>
                         </CardHeader>
 
                         <CardContent>
-                            <p className="mt-3 text-sm">{t("Language stays, creation of texts, animation")}</p>
+                            <p className="text-sm">{t("Language stays, creation of texts, animation")}</p>
                         </CardContent>
                     </Card>
                 </div>
+                <div className="flex sm:pt-10 md:pt-16 lg:pt-10 items-center justify-center w-full">
+                            <Link href="#content-3">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" 
+                                    width="40" 
+                                    height="40" 
+                                    viewBox="0 0 24 24" 
+                                    fill="none" 
+                                    stroke="currentColor" 
+                                    strokeWidth="2" 
+                                    strokeLinecap="round" 
+                                    strokeLinejoin="round" 
+                                    className="lucide lucide-chevrons-down-icon lucide-chevrons-down animate-bounce">
+                                        <path d="m7 6 5 5 5-5"/>
+                                        <path d="m7 13 5 5 5-5"/>
+                                </svg>
+                            </Link>
+                        </div>
             </div>
         </section>
     )

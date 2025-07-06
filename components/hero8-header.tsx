@@ -14,7 +14,7 @@ export const HeroHeader = () => {
     const { t } = useTranslation()
 
     const menuItems = [
-        { name: t('Features'), href: '#features-1' },
+        { name: t('Our offers'), href: '#features-1' },
         { name: t('Experiential learning'), href: '#content-3' },
         { name: t('Practice/English Buddy'), href: '#chatbot' },
     //  { name: t('About'), href: '#link' },
