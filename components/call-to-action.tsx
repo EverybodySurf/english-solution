@@ -7,21 +7,21 @@ import { useTranslation } from 'react-i18next'
 export default function CallToAction() {
     const { t } = useTranslation()
     return (
-        <section className="py-16 md:py-32">
+        <section className="pt-12 md:pt-32 lg:pt-50" id="call-to-action">
             <div className="mx-auto max-w-5xl px-6">
                 <div className="text-center">
-                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl">{t('Start Learning')}</h2>
-                    <p className="mt-4">{t("Let's begin the conversation.")}</p>
+                    <h2 className="text-balance text-4xl font-semibold lg:text-5xl">{t('Call or send us a message')}</h2>
+                    <p className="mt-4">{t("click the button below.")}</p>
 
                     <div className="mt-12 flex flex-wrap justify-center gap-4">
                         <Button asChild size="lg">
                             <Link 
-                                href="https://wa.me/590690323355" 
+                                href="https://wa.me/590690755830" 
                                 target="_blank" 
                                 rel="noopener noreferrer"
                             >
                                 <FaWhatsapp className="text-zinc-50 dark:text-zinc-950 text-xl" />
-                                <span className="text-nowrap">{t('Call Me Today')}</span>
+                                <span className="text-nowrap">{t('Call or text today')}</span>
                             </Link>
                         </Button>
 

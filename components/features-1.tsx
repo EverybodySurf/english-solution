@@ -72,23 +72,23 @@ export default function Features() {
                     </Card>
                 </div>
                 <div className="flex sm:pt-10 md:pt-16 lg:pt-10 items-center justify-center w-full">
-                            <Link href="#team">
-                                <svg 
-                                    xmlns="http://www.w3.org/2000/svg" 
-                                    width="40" 
-                                    height="40" 
-                                    viewBox="0 0 24 24" 
-                                    fill="none" 
-                                    stroke="currentColor" 
-                                    strokeWidth="2" 
-                                    strokeLinecap="round" 
-                                    strokeLinejoin="round" 
-                                    className="lucide lucide-chevrons-down-icon lucide-chevrons-down animate-bounce">
-                                        <path d="m7 6 5 5 5-5"/>
-                                        <path d="m7 13 5 5 5-5"/>
-                                </svg>
-                            </Link>
-                        </div>
+                    <Link href="#team">
+                        <svg 
+                            xmlns="http://www.w3.org/2000/svg" 
+                            width="40" 
+                                height="40" 
+                                viewBox="0 0 24 24" 
+                                fill="none" 
+                                stroke="currentColor" 
+                                strokeWidth="2" 
+                                strokeLinecap="round" 
+                                strokeLinejoin="round" 
+                                className="lucide lucide-chevrons-down-icon lucide-chevrons-down animate-bounce">
+                                    <path d="m7 6 5 5 5-5"/>
+                                    <path d="m7 13 5 5 5-5"/>
+                        </svg>
+                    </Link>
+                </div>
             </div>
         </section>
     )

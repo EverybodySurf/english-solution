@@ -15,8 +15,8 @@ export const HeroHeader = () => {
 
     const menuItems = [
         { name: t('Our offers'), href: '#features-1' },
-        { name: t('Experiential learning'), href: '#content-3' },
-        { name: t('Practice/English Buddy'), href: '#chatbot' },
+        { name: t('Our team'), href: '#team' },
+        { name: t('Call us'), href: '#call-to-action' },
     //  { name: t('About'), href: '#link' },
     ]
 
@@ -33,7 +33,7 @@ export const HeroHeader = () => {
                                 aria-label="home"
                                 className="flex items-center space-x-2">
                                 <Logo />
-                                <h3 className="font-bold text-foreground">{t('The English Solution')}</h3>
+                                <h3 className="font-semibold text-foreground">{t('The English Solution')}</h3>
                             </Link>
 
                             <button

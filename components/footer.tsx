@@ -8,17 +8,17 @@ export default function FooterSection() {
 
     const links = [
     {
-        title: t('Features'),
+        title: t('Our offers'),
         href: '#features-1',
     },
     {
-        title: t('Experience'),
-        href: '#content-3',
+        title: t('Our team'),
+        href: '#team',
     },
-  // {
-  //      title: 'Customers',
-  //      href: '#',
-  // },
+    {
+        title: t('Call us'),
+        href: '#call-to-action',
+    },
   //  {
   //      title: 'Pricing',
   //      href: '#',
