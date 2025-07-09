@@ -2,7 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   experimental: {
-    serverActions: {},
+    serverActions: {
+      allowedOrigins: ['localhost:3000'],
+    },
   },
   /* config options here */ 
   images: {

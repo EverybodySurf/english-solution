@@ -18,13 +18,13 @@ export default function HeroSection() {
             <HeroHeader />
             <main className="overflow-x-hidden">
                 <section>
-                    <div className="pb-24 pt-12 md:pb-32 lg:pb-6 lg:pt-22">
+                    <div className="pt-12 mb-46 sm:mb-0 md:mb-46 lg:mb-70 lg:pt-22">
                         <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
-                            <div className="mx-auto pr-14 max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
-                                <h1 className="text-teal-400 mt-8 max-w-2xl text-balance text-4xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">{t('English immersion for kids')}</h1>
-                                <p className="mt-8 max-w-2xl text-pretty text-lg">{t('Fun and engaging programs that awaken a lasting affinity for the English language')}</p>
+                            <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
+                                <h1 className="text-teal-400 mt-6 max-w-xl text-balance text-4xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">{t('English immersion for kids')}</h1>
+                                <p className="mt-4 max-w-2xl text-pretty text-md">{t('Fun and engaging programs that awaken a lasting affinity for the English language')}</p>
 
-                                <div className="mt-12 flex flex-col items-center justify-center gap-2 sm:flex-row lg:justify-start">
+                                <div className="mt-6 flex items-center justify-center gap-2 sm:flex-row lg:justify-start">
                                     <Button
                                         asChild
                                         size="lg"
@@ -44,7 +44,7 @@ export default function HeroSection() {
                                         size="lg"
                                         variant="ghost"
                                         className="px-5 text-base">
-                                        <Link href="#content-3">
+                                        <Link href="#features-1">
                                             <span className="text-nowrap">{t('More info')}</span>
                                         </Link>
                                     </Button>
@@ -59,7 +59,7 @@ export default function HeroSection() {
                                 priority
                             />
                         </div>
-                        <div className="flex sm:pt-10 md:pt-16 lg:pt-20 items-center justify-center w-full">
+                        {/*<div className="absolute pl-120 pt-25">
                             <Link href="#features-1">
                                 <svg 
                                     xmlns="http://www.w3.org/2000/svg" 
@@ -76,7 +76,7 @@ export default function HeroSection() {
                                         <path d="m7 13 5 5 5-5"/>
                                 </svg>
                             </Link>
-                        </div>
+                        </div>*/}
                         
                     </div>
                 </section>

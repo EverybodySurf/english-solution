@@ -8,11 +8,11 @@ import Link from 'next/link'
 export default function Features() {
     const { t } = useTranslation()
     return (
-        <section className="bg-zinc-50 py-16 md:py-16 dark:bg-transparent scroll-mt-8" id="features-1">
+        <section className="bg-zinc-50 py-16 scroll-mt-12 sm:pb-16 pt-0 md:py-16 dark:bg-transparent" id="features-1">
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
                     <h2 className="text-teal-400 text-balance text-4xl font-semibold lg:text-5xl">{t('Our offers')}</h2>
-                    <p className="mt-4">{t("Whether it's adults or children, for work or personal practice, we'll help you attain your goals")}</p>
+                    <p className="mt-4 text-md">{t("Whether it's adults or children, for work or personal practice, we'll help you attain your goals")}</p>
                 </div>
                 <div className="@min-4xl:max-w-full @min-4xl:grid-cols-4 mx-auto mt-8 lg:mt-14 grid max-w-sm gap-6 *:text-center md:mt-16">
                     <Card className="group shadow-zinc-950/5">
@@ -71,7 +71,7 @@ export default function Features() {
                         </CardContent>
                     </Card>
                 </div>
-                <div className="flex sm:pt-10 md:pt-16 lg:pt-10 items-center justify-center w-full">
+                <div className="flex pt-11 sm:pt-10 md:pt-16 lg:pt-10 items-center justify-center w-full">
                     <Link href="#team">
                         <svg 
                             xmlns="http://www.w3.org/2000/svg" 

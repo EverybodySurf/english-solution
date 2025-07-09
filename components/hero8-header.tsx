@@ -73,22 +73,13 @@ export const HeroHeader = () => {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="flex w-full flex-col space-y-3 sm:flex-row sm:gap-3 sm:space-y-0 md:w-fit">
-                              {/*  <Button
-                                    asChild
-                                    variant="outline"
-                                    size="sm">
-                                    <Link href="#">
-                                        <span>Login</span>
-                                    </Link>
-                                </Button>
-                                <Button
-                                    asChild
-                                    size="sm">
-                                    <Link href="#">
+                            <div className="flex w-full flex-col space-y-3 items-center text-sm sm:flex-row sm:gap-6 sm:space-y-0 md:w-fit lg:gap-8">
+                                <Link href="/login">
+                                    <span>Login</span>
+                                </Link>
+                                <Link href="/signup">
                                         <span>Sign Up</span>
-                                    </Link>
-                                </Button> */}
+                                </Link>
                                 <TranslateToggle />
                                 <ModeToggle />
                             </div>
