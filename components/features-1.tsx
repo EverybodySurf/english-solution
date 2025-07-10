@@ -8,7 +8,7 @@ import Link from 'next/link'
 export default function Features() {
     const { t } = useTranslation()
     return (
-        <section className="bg-zinc-50 py-16 scroll-mt-12 sm:pb-16 pt-0 md:py-16 dark:bg-transparent" id="features-1">
+        <section className="bg-zinc-50 scroll-mt-12 sm:mt-20 pb-16 pt-0 md:py-16 dark:bg-transparent" id="features-1">
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
                     <h2 className="text-teal-400 text-balance text-4xl font-semibold lg:text-5xl">{t('Our offers')}</h2>

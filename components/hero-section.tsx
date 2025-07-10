@@ -51,7 +51,7 @@ export default function HeroSection() {
                                 </div>
                             </div>
                             <Image
-                                className="-z-10 order-first ml-auto h-56 w-full object-cover rounded-xl sm:h-96 lg:absolute lg:inset-0 lg:-right-40 lg:-top-20 lg:order-last lg:h-max lg:w-2/3 lg:object-contain dark:mix-blend-lighten dark:invert-0"
+                                className="-z-10 order-first ml-auto h-56 w-full object-cover rounded-xl sm:h-96 lg:absolute lg:inset-0 lg:-right-40 lg:-top-23 lg:order-last lg:h-max lg:w-2/3 lg:object-contain dark:mix-blend-lighten dark:invert-0"
                                 src={kidsLaughing}
                                 alt="Kids Laughing"
                                 height="4000"
