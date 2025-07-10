@@ -54,12 +54,12 @@ export function SignupForm({
     },
   });
 
-  const signInWithGoogle = async () => {
+  {/*const signInWithGoogle = async () => {
     await authClient.signIn.social({
         provider: "google",
         callbackURL: "/dashboard",
     });
-};
+};*/}
  
   // 2. Define a submit handler.
   async function onSubmit(values: z.infer<typeof formSchema>) {
@@ -81,10 +81,10 @@ export function SignupForm({
     <div className={cn("flex flex-col gap-6", className)} {...props}>
       <Card>
         <CardHeader className="text-center">
-          <CardTitle className="text-xl">Welcome back</CardTitle>
-          <CardDescription>
+          <CardTitle className="text-xl">Admin Signup</CardTitle>
+          {/*<CardDescription>
             Login with your Google account
-          </CardDescription>
+          </CardDescription>*/}
         </CardHeader>
         <CardContent>
           <Form {...form}>
@@ -100,7 +100,7 @@ export function SignupForm({
                     </svg>
                     Login with Apple
                   </Button>*/}
-                  <Button 
+                  {/*<Button 
                     variant="outline" 
                     className="w-full"
                     type="button"
@@ -113,11 +113,11 @@ export function SignupForm({
                       />
                     </svg>
                     Signup with Google
-                  </Button>
+                  </Button>*/}
                 </div>
                 <div className="after:border-border relative text-center text-sm after:absolute after:inset-0 after:top-1/2 after:z-0 after:flex after:items-center after:border-t">
                   <span className="bg-card text-muted-foreground relative z-10 px-2">
-                    Or continue with
+                    Fill out the form below
                   </span>
                 </div>
                 <div className="grid gap-6">
@@ -179,16 +179,16 @@ export function SignupForm({
                     {isLoading ? (
                       <Loader2 className="size-4 animate-spin" /> 
                     ) : (
-                      "Login"
+                      "Signup"
                     )}
                   </Button>
                 </div>
-                <div className="text-center text-sm">
+                {/*<div className="text-center text-sm">
                   Don&apos;t have an account?{" "}
                   <a href="#" className="underline underline-offset-4">
                     Sign up
                   </a>
-                </div>
+                </div>*/}
               </div>
             </form>
           </Form>

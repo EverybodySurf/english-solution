@@ -75,11 +75,11 @@ export const HeroHeader = () => {
                             </div>
                             <div className="flex w-full flex-col space-y-3 items-center text-sm sm:flex-row sm:gap-6 sm:space-y-0 md:w-fit lg:gap-8">
                                 <Link href="/login">
-                                    <span>Login</span>
+                                    <span>Admin</span>
                                 </Link>
-                                <Link href="/signup">
+                               {/* <Link href="/signup">
                                         <span>Sign Up</span>
-                                </Link>
+                                </Link>*/}
                                 <TranslateToggle />
                                 <ModeToggle />
                             </div>
