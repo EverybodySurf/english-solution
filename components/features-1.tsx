@@ -12,7 +12,7 @@ export default function Features() {
             <div className="@container mx-auto max-w-5xl px-6">
                 <div className="text-center">
                     <h2 className="text-teal-400 text-balance text-4xl font-semibold lg:text-5xl">{t('Our offers')}</h2>
-                    <p className="mt-4 text-md">{t("Whether it's adults or children, for work or personal practice, we'll help you attain your goals")}</p>
+                    <p className="mt-4 text-md">{t("From group workshops to Language stays we've got you covered")}</p>
                 </div>
                 <div className="@min-4xl:max-w-full @min-4xl:grid-cols-4 mx-auto mt-8 lg:mt-14 grid max-w-sm gap-6 *:text-center md:mt-16">
                     <Card className="group shadow-zinc-950/5">
