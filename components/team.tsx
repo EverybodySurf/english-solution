@@ -1,4 +1,6 @@
+"use client"
 import Link from 'next/link'
+import { useTranslation } from 'react-i18next'
 
 const members = [
     {
@@ -16,16 +18,17 @@ const members = [
 ]
 
 export default function TeamSection() {
+    const { t } = useTranslation();
     return (
         <section className="pb-12 pt-0 md:py-16 dark:bg-transparent" id="team">
             <div className="mx-auto max-w-5xl px-6">
                 {/*<span className="text-caption -ml-6 -mt-3.5 block w-max bg-gray-50 px-6 dark:bg-gray-950">Team</span>*/}
                 <div className="mt-6 gap-4 sm:grid sm:grid-cols-2">
                     <div className="sm:w-2/5">
-                        <h2 className="text-teal-400 text-3xl font-bold sm:text-4xl">Our dream team</h2>
+                        <h2 className="text-teal-400 text-3xl font-bold sm:text-4xl">{t('Our dream team')}</h2>
                     </div>
                     <div className="mt-6 sm:mt-0">
-                        <p>Since 2014, our goal at The English Solution has been to awaken a lasting affinity for the English language through rigorous teaching provided in an encouraging and fun way. With our California senior teacher, students enjoy a real language immersion on site.</p>
+                        <p>{t('Since 2014, our goal at The English Solution has been to awaken a lasting affinity for the English language through rigorous teaching provided in an encouraging and fun way. With our California senior teacher, students enjoy a real language immersion on site.')}</p>
                     </div>
                 </div>
                 <div className="mt-6 md:mt-8 lg:mt-10">

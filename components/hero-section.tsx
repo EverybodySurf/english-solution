@@ -22,7 +22,7 @@ export default function HeroSection() {
                         <div className="relative mx-auto flex max-w-6xl flex-col px-6 lg:block">
                             <div className="mx-auto max-w-lg text-center lg:ml-0 lg:w-1/2 lg:text-left">
                                 <h1 className="text-teal-400 mt-6 max-w-xl text-balance text-4xl font-medium md:text-6xl lg:mt-16 xl:text-7xl">{t('English immersion for kids')}</h1>
-                                <p className="mt-4 max-w-2xl text-pretty text-md">{t('Fun and engaging programs that awaken a lasting affinity for the English language')}</p>
+                                <p className="mt-4 max-w-2xl text-pretty text-md">{t('Fun and engaging programs that awaken a lasting affinity for the English language.')}</p>
 
                                 <div className="mt-6 flex items-center justify-center gap-2 sm:flex-row lg:justify-start">
                                     <Button
